@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@theme {
+  --font-display: "Unbounded", "Noto Sans Georgian", ui-sans-serif, sans-serif;
+  --font-sans: "Space Grotesk", "Noto Sans Georgian", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Noto Sans Georgian", ui-monospace, monospace;
+  --font-georgian: "Noto Sans Georgian", sans-serif;
+
+  --color-night: #070b1f;
+  --color-ink: #0f1430;
+  --color-dusk: #2a1d4f;
+  --color-amber: #ffb347;
+  --color-ember: #f0745a;
+  --color-teal: #4fd1c5;
+  --color-mist: #e8e6f4;
+}
+
+html {
+  background: var(--color-night);
+  color: var(--color-mist);
+  -webkit-font-smoothing: antialiased;
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-amber);
+  color: var(--color-night);
+}
+
+.wallpaper {
+  background:
+    radial-gradient(ellipse 80% 45% at 50% 105%, rgba(240, 116, 90, 0.55), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 15% 20%, rgba(79, 209, 197, 0.12), transparent 70%),
+    linear-gradient(180deg, #0b1030 0%, #1d1844 45%, #3b2363 75%, #6b3360 100%);
+}
+
+.glass {
+  background: rgba(15, 20, 48, 0.72);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+}
+
+@keyframes blink-caret {
+  50% { opacity: 0; }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-caret { animation: blink-caret 1s steps(1) infinite; }
+.animate-float-slow { animation: float-slow 3.2s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-caret, .animate-float-slow { animation: none; }
+}
