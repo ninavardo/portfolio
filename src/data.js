@@ -40,6 +40,8 @@ export const tools = ['git', 'github', 'cursor', 'claude', 'gemini', 'clickup', 
 
 export const journey = [
   {
+    hash: 'a3f9c21',
+    branch: 'HEAD → tourlify',
     period: 'Nov 2024 — Present',
     title: 'Backend Developer',
     place: 'Tourlify · Remote',
@@ -51,18 +53,35 @@ export const journey = [
     ],
   },
   {
+    hash: 'e81d4a7',
+    branch: 'hackathon/uni4verse',
+    period: '2026',
+    title: 'UNI4VERSE Hackathon',
+    place: 'Khidi · GITA, FinEdu track',
+    points: [
+      'Team of four students from Georgian American University.',
+      'Designed a platform concept that connects early-stage Georgian startups with investors through a swipe-style matching experience.',
+    ],
+  },
+  {
+    hash: '7be04d9',
+    branch: 'geolab',
     period: 'May 2026 — Oct 2026',
     title: 'Front-End Development',
     place: 'GEOLAB · Tbilisi',
     points: ['Hands-on training in HTML, CSS, JavaScript and React, building responsive interfaces.'],
   },
   {
+    hash: 'c51e8a2',
+    branch: 'erasmus/coimbra',
     period: 'Sep 2025 — Jan 2026',
     title: 'Erasmus+ Exchange',
     place: 'ISEC · Coimbra, Portugal',
     points: ['A semester of engineering studies abroad at Instituto Superior de Engenharia de Coimbra.'],
   },
   {
+    hash: '0d4f7b6',
+    branch: 'gau',
     period: 'Sep 2024 — Present',
     title: 'Bachelor of Informatics',
     place: 'Georgian American University',
