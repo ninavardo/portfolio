@@ -65,7 +65,7 @@ export default function Desktop() {
             Shut down and go back to the balcony
           </button>
           <p className="font-mono text-[11px] text-mist/40">
-            © {new Date().getFullYear()} {profile.firstName} {profile.lastName} · built in Tbilisi with React, Three.js and a glass of Saperavi
+            © {new Date().getFullYear()} {profile.firstName} {profile.lastName} · built in Tbilisi with React, Three.js and one too many <span className="text-[#facc15]">Red Bulls</span> (Tropical Edition, obviously)
           </p>
         </footer>
       </div>
