@@ -91,6 +91,18 @@ export const journey = [
 
 export const projects = [
   {
+    name: 'Equora',
+    tagline: 'An interactive gallery of the running horse',
+    description:
+      'A scroll-driven exhibition of eight rooms exploring freedom, power, longing and more through Chinese and Japanese horse legends. Ink that draws as you scroll, a Tang horse in light, a horsehead fiddle you can pluck, ema wishes, and a tiny runner game at the end.',
+    image: '/projects/equora.png',
+    live: 'https://equora-eta.vercel.app',
+    code: 'https://github.com/ninavardo/equora',
+    tags: ['React', 'TypeScript', 'GSAP', 'Framer Motion', 'Lenis'],
+    category: 'Websites',
+    file: 'equora.gallery',
+  },
+  {
     name: 'watchout',
     tagline: 'Movie & series finder',
     description:
