@@ -140,26 +140,15 @@ export const projects = [
   },
   {
     name: 'Olea',
-    tagline: 'Beauty studio website, Tbilisi',
+    tagline: 'Client work · beauty studio in Tbilisi',
     description:
-      'A calm, bilingual website for a real beauty studio with treatments, a gallery with lightbox, booking flow and dark mode.',
+      'A real commission for a working beauty studio in Tbilisi: a calm trilingual (EN / KA / RU) site with treatments, a gallery with lightbox, booking flow and dark mode. Built for an actual business, not a demo.',
     image: '/projects/olea.png',
     live: 'https://olea-delta.vercel.app',
     code: 'https://github.com/ninavardo/olea',
-    tags: ['React', 'TypeScript', 'EN / KA'],
+    tags: ['Client work', 'React', 'TypeScript', 'EN / KA / RU'],
     category: 'Websites',
     file: 'olea.site',
-  },
-  {
-    name: 'Sport Cars',
-    tagline: 'Where it all started',
-    description: 'One of my first websites: a responsive, sports-car themed landing page made with plain HTML and CSS.',
-    image: '/projects/cars.png',
-    live: 'https://ninavardo.github.io/project-cars/',
-    code: 'https://github.com/ninavardo/project-cars',
-    tags: ['HTML', 'CSS'],
-    category: 'Websites',
-    file: 'sport-cars.html',
   },
 ]
 
