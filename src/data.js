@@ -179,6 +179,14 @@ export const documents = [
     date: '2026',
     image: '/docs/geolab-frontend-certificate.jpg',
   },
+  {
+    kind: 'Certificates',
+    file: 'geolab-frontend-js-react.jpg',
+    title: 'Front-End Web Development, stage 2: JavaScript & React',
+    issuer: 'GeoLab · Tbilisi',
+    date: '2026',
+    image: '/docs/geolab-frontend-stage2-certificate.jpg',
+  },
 ]
 
 /** Public Microsoft Learn transcript (Profile → Transcript → Share link). Leave empty to hide the link. */
